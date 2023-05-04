@@ -1,0 +1,17 @@
+1.1 make sure client can communicate with ds-server. Done
+1.2 Try ds-server in the interactive mode
+1.3 Demonstrate understanding of ds-sim protocol in the interactive mode with sample.config01.xml
+
+2.0 Check out some sample configuration files
+2.1 Read description and usage of GETS in user guide
+2.2 Find out which GETS parameter/option to use and when to use
+2.3 Figure how to handle the response to GETS
+
+3.Schedule Jobs 
+Scheduling a job in ds-sim is done by the client, using the SCHD command. Requires several parameters, refer to Section 8 of user manual
+
+Steps 
+Find out largest server type
+Schedule each and every job to first server of that type (implement atl)
+Client needs to handle at least one job for this task
+(Client needs to be able to send at least 1 correct SCHD message to se-server, to handle all jobs, requires some form of iteration statement (while loop etc.)
