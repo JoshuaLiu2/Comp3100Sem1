@@ -1,0 +1,25 @@
+Task 1: Identify pros and cons of each of three baseline algorithms.
+Task 2: Run simulations with each of them using ds-config01–wk9.xml
+Task 2.1: Run them in the normal mode
+Task 2.2: Run them in the interactive mode (using “-i” with ds-server)
+
+First fit
+-uses all 3 servers
+-costs less
+-faster turn around time
+-does not check cores, allocates to first capable server available
+-time efficient
+
+Best fit
+-uses all 3 servers
+-costs less
+-faster turn around time
+-needs to check cores available/based of core count
+-schedules jobs regardless of availability
+-processing efficient
+
+Worst fit
+-uses less servers (2 servers used)
+-costs more
+-longer turn around time
+-
