@@ -1,5 +1,5 @@
 1.1 make sure client can communicate with ds-server. Done
-1.2 Try ds-server in the interactive mode
+1.2 Try ds-server in the interactive mode. Done
 1.3 Demonstrate understanding of ds-sim protocol in the interactive mode with sample.config01.xml
 
 2.0 Check out some sample configuration files
