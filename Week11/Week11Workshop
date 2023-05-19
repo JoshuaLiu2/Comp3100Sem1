@@ -1,0 +1,12 @@
+Make log file: need to run ds-server and ds-client
+ds-server log:
+./ds-server -c ds-config01--wk9.xml -v brief > ff.log
+then run ds-client to produce log
+./ds-client -a ff
+(for first fit)
+
+Log file is produced, log file and config file need to be in ds-viz folder
+To run ds_viz:
+
+python3 ./ds_viz.py ds-config01--wk9.xml ff.log
+
